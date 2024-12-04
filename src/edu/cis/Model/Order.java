@@ -12,6 +12,10 @@ public class Order {
         this.orderID = orderID;
     }
 
+    public Order(){
+
+    }
+
     public String getItemID() {
         return itemID;
     }
